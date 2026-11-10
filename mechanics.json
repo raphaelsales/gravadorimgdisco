@@ -1,0 +1,362 @@
+{
+  "version": 1,
+  "values": [
+    {
+      "name": "sector size",
+      "group": "disc",
+      "value": 2048,
+      "unit": "bytes",
+      "source": "ISO 9660 standard"
+    },
+    {
+      "name": "raw sector size",
+      "group": "disc",
+      "value": 2352,
+      "unit": "bytes",
+      "source": "CD standard"
+    },
+    {
+      "name": "CD-R 80 min capacity",
+      "group": "disc",
+      "value": 359845,
+      "unit": "sectors",
+      "source": "instruction 0x54b212 (cmp 0x57DA5)"
+    },
+    {
+      "name": "DVD-R single layer capacity",
+      "group": "disc",
+      "value": 2297888,
+      "unit": "sectors",
+      "source": "function 0x791378"
+    },
+    {
+      "name": "DVD+R DL capacity",
+      "group": "disc",
+      "value": 4173824,
+      "unit": "sectors",
+      "source": "function 0x791378"
+    },
+    {
+      "name": "BD-R single layer capacity",
+      "group": "disc",
+      "value": 12219392,
+      "unit": "sectors",
+      "source": "function 0x791378"
+    },
+    {
+      "name": "ready poll first loop",
+      "group": "drive",
+      "value": 10,
+      "unit": "tries",
+      "source": "function 0x444740"
+    },
+    {
+      "name": "ready poll second loop",
+      "group": "drive",
+      "value": 20,
+      "unit": "tries",
+      "source": "function 0x444740"
+    },
+    {
+      "name": "ready poll interval",
+      "group": "drive",
+      "value": 100,
+      "unit": "ms",
+      "source": "function 0x444740"
+    },
+    {
+      "name": "capacity check",
+      "group": "checks",
+      "value": "image sectors vs disc sectors",
+      "source": "function 0x791378"
+    },
+    {
+      "name": "disc status values",
+      "group": "checks",
+      "value": "Empty/Incomplete/Complete/Others/Unknown",
+      "source": "function 0x720398"
+    },
+    {
+      "name": "almost full threshold",
+      "group": "checks",
+      "value": 0.98,
+      "estimated": true
+    },
+    {
+      "name": "safe CD-R speed",
+      "group": "speed",
+      "value": 16,
+      "unit": "x",
+      "estimated": true
+    },
+    {
+      "name": "safe DVD speed",
+      "group": "speed",
+      "value": 8,
+      "unit": "x",
+      "estimated": true
+    },
+    {
+      "name": "verify after write",
+      "group": "options",
+      "value": true,
+      "source": "instruction 0x4a8471"
+    },
+    {
+      "name": "ISO mark offset",
+      "group": "image",
+      "value": 32769,
+      "unit": "bytes",
+      "source": "ISO 9660 standard"
+    },
+    {
+      "name": "picture dark byte",
+      "group": "picture",
+      "value": "0x0D",
+      "source": "Disc Image Studio CdToneMapping.cs"
+    },
+    {
+      "name": "picture light byte",
+      "group": "picture",
+      "value": "0xAA",
+      "source": "Disc Image Studio CdToneMapping.cs"
+    },
+    {
+      "name": "track speed",
+      "group": "picture",
+      "value": 1200,
+      "unit": "mm/s",
+      "source": "Disc Image Studio CdDiscParameters.cs (ECMA-130)"
+    },
+    {
+      "name": "picture canvas radius",
+      "group": "picture",
+      "value": 57.5,
+      "unit": "mm",
+      "source": "Disc Image Studio CdDiscParameters.cs"
+    },
+    {
+      "name": "standard CD inner radius",
+      "group": "picture",
+      "value": 24.5,
+      "unit": "mm",
+      "source": "Disc Image Studio presets cd-80"
+    },
+    {
+      "name": "standard CD outer radius",
+      "group": "picture",
+      "value": 56.8,
+      "unit": "mm",
+      "source": "Disc Image Studio presets cd-80"
+    },
+    {
+      "name": "CIRC ring frames",
+      "group": "picture",
+      "value": 112,
+      "unit": "frames",
+      "source": "Disc Image Studio CddaInterleaveTable.cs"
+    },
+    {
+      "name": "pregap",
+      "group": "picture",
+      "value": 150,
+      "unit": "sectors",
+      "estimated": true
+    },
+    {
+      "name": "picture sampled every",
+      "group": "picture",
+      "value": 4,
+      "unit": "bytes",
+      "estimated": true
+    },
+    {
+      "name": "ELGIN CD-R geometry",
+      "group": "picture",
+      "value": "standard 80 min",
+      "estimated": true
+    },
+    {
+      "name": "DVD+R single layer capacity",
+      "group": "disc",
+      "value": 2295104,
+      "unit": "sectors",
+      "source": "function 0x791378"
+    },
+    {
+      "name": "DVD-R DL capacity",
+      "group": "disc",
+      "value": 4171712,
+      "unit": "sectors",
+      "source": "function 0x791378"
+    },
+    {
+      "name": "BD-R DL capacity",
+      "group": "disc",
+      "value": 24438784,
+      "unit": "sectors",
+      "source": "function 0x791378"
+    },
+    {
+      "name": "BD-R TL capacity",
+      "group": "disc",
+      "value": 48878592,
+      "unit": "sectors",
+      "source": "function 0x791378"
+    },
+    {
+      "name": "fits rule",
+      "group": "checks",
+      "value": "image sectors <= free sectors",
+      "source": "function 0x791378"
+    },
+    {
+      "name": "test mode default",
+      "group": "options",
+      "value": false,
+      "source": "instruction 0x4a8468"
+    },
+    {
+      "name": "original default write speed",
+      "group": "options",
+      "value": "MAX",
+      "source": "instruction 0x4a8478"
+    },
+    {
+      "name": "last session states",
+      "group": "checks",
+      "value": "Empty/Incomplete/Damaged/Complete",
+      "source": "function 0x720398"
+    },
+    {
+      "name": "disc maker lookup key",
+      "group": "disc",
+      "value": "first 7 chars of ATIP lead-in",
+      "source": "function 0x5fd008"
+    },
+    {
+      "name": "ELGIN CD-R image limit",
+      "group": "brands",
+      "value": 359845,
+      "unit": "sectors",
+      "source": "instruction 0x54b212"
+    },
+    {
+      "name": "ELGIN CD-R speed used",
+      "group": "brands",
+      "value": 16,
+      "unit": "x",
+      "estimated": true
+    },
+    {
+      "name": "Multilaser DVD-R image limit",
+      "group": "brands",
+      "value": 2297888,
+      "unit": "sectors",
+      "source": "function 0x791378"
+    },
+    {
+      "name": "Multilaser DVD-R speed used",
+      "group": "brands",
+      "value": 8,
+      "unit": "x",
+      "estimated": true
+    },
+    {
+      "name": "photo drawing on DVD-R",
+      "group": "brands",
+      "value": false,
+      "estimated": true
+    },
+    {
+      "name": "1x CD",
+      "group": "speed",
+      "value": 176.4,
+      "unit": "KB/s",
+      "source": "data 0x4886c0, used at 0x484b8a"
+    },
+    {
+      "name": "1x DVD",
+      "group": "speed",
+      "value": 1385.0,
+      "unit": "KB/s",
+      "source": "data 0x4886c8, used at 0x484bca"
+    },
+    {
+      "name": "1x HD DVD",
+      "group": "speed",
+      "value": 4568.75,
+      "unit": "KB/s",
+      "source": "data 0x4886cc, used at 0x484c04"
+    },
+    {
+      "name": "1x BD",
+      "group": "speed",
+      "value": 4495.5,
+      "unit": "KB/s",
+      "source": "data 0x4886d0, used at 0x484c3e"
+    },
+    {
+      "name": "speed to KB/s",
+      "group": "speed",
+      "value": "round(x * factor)",
+      "source": "code 0x484b84..0x484c3e"
+    },
+    {
+      "name": "MAX speed code (CD)",
+      "group": "speed",
+      "value": 65535,
+      "source": "code 0x484b7a"
+    },
+    {
+      "name": "slowest suggested CD-R speed",
+      "group": "speed",
+      "value": 8,
+      "unit": "x",
+      "estimated": true
+    },
+    {
+      "name": "slowest suggested DVD speed",
+      "group": "speed",
+      "value": 4,
+      "unit": "x",
+      "estimated": true
+    },
+    {
+      "name": "eject after write default",
+      "group": "options",
+      "value": false,
+      "source": "instruction 0x4a8844"
+    },
+    {
+      "name": "eject after verify default",
+      "group": "options",
+      "value": false,
+      "source": "instruction 0x4a884b"
+    },
+    {
+      "name": "cycle tray before verify default",
+      "group": "options",
+      "value": true,
+      "source": "instruction 0x4a835f"
+    },
+    {
+      "name": "verify against image file default",
+      "group": "options",
+      "value": true,
+      "source": "instruction 0x4a8366"
+    },
+    {
+      "name": "success sound after write default",
+      "group": "options",
+      "value": true,
+      "source": "instruction 0x4a8aeb"
+    },
+    {
+      "name": "error sound after write default",
+      "group": "options",
+      "value": true,
+      "source": "instruction 0x4a8c12"
+    }
+  ]
+}

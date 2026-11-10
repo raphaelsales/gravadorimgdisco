@@ -1,0 +1,44 @@
+GRAVADOR DE IMAGENS — como usar no dia a dia
+============================================
+
+O QUE VOCÊ PRECISA
+- Um computador com gravador de CD/DVD (interno ou USB).
+- Discos virgens: CD-R (ex.: ELGIN 700 MB 80 min) ou DVD-R (ex.: Multilaser 4,7 GB).
+- Para desenhar foto: cerca de 1 GB livre no computador (a faixa do desenho tem uns 850 MB).
+
+NO WINDOWS
+1. Copie "Gravador de Imagens.exe" para a Área de Trabalho (ou qualquer pasta).
+2. Dê dois cliques nele. Não precisa instalar nada.
+3. Se aparecer "O Windows protegeu o computador", clique em "Mais informações" e
+   depois em "Executar assim mesmo". Isso aparece porque o programa não tem
+   assinatura digital paga; ele não altera nada no sistema.
+4. O programa usa o serviço de gravação que já vem no Windows (IMAPI2).
+
+NO MAC
+1. Abra o arquivo "Gravador de Imagens - Mac.zip" (ele vira "Gravador de Imagens.app").
+2. Arraste o "Gravador de Imagens" para a pasta Aplicativos.
+3. Na primeira vez: clique com o botão direito no programa → "Abrir" → "Abrir".
+   (Se o Mac bloquear: Ajustes do Sistema → Privacidade e Segurança → "Abrir Mesmo Assim".)
+
+USANDO
+Siga os 6 passos na tela: Escolher → Disco → Verificação → Opções → Gravar → Pronto.
+- Passo 1: escolha "Uma imagem de disco (.iso)" para copiar um CD/DVD,
+  ou "Uma foto desenhada no CD" para desenhar uma foto JPG/PNG num CD-R.
+- Passo 2: escolha a marca do seu disco e clique em "Ler o disco".
+- Passo 3: só continue quando não houver nada em vermelho.
+- Quando terminar, o programa toca um som. A bandeja fica fechada (como no
+  ImgBurn); aperte o botão do gravador para tirar o disco.
+- Velocidade: deixe a que o programa escolheu (CD-R 16x, DVD-R 8x). Nem a mais
+  rápida nem a mais lenta.
+
+SE QUISER GRAVAR NO IMGBURN
+No passo 5 do modo foto, clique em "Só criar os arquivos". Depois, no ImgBurn:
+"Write image file to disc" → escolha o arquivo faixa-desenho.cue → velocidade 16x → gravar.
+
+PARA TREINAR SEM GASTAR DISCO
+No passo 2, escolha o "Gravador de treino (simulado)". Ele faz tudo, mas não grava nada.
+
+IMPORTANTE
+- Faça um disco de teste antes de gravar muitos.
+- A gravação no Windows e o desenho em disco ELGIN ainda não foram testados com
+  discos reais.
